@@ -7941,6 +7941,12 @@ textarea.form-control-lg {
   border-radius: 50% !important;
 }
 
+.rounded-circle2 {
+  border-radius: 50% !important;
+  width: 40px;
+	height: 40px;
+}
+
 .rounded-pill {
   border-radius: 50rem !important;
 }
