@@ -11314,3 +11314,15 @@ html {
   background-repeat: no-repeat;
   min-height: 15rem;
 }
+
+.form-floating.mb-3 small {
+  visibility: hidden;
+}
+
+.form-floating.mb-3.correct input {
+  border-color: green;
+}
+
+.form-floating.mb-3.incorrect input {
+  border-color: red;
+}
