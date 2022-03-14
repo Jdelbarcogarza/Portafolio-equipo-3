@@ -43,31 +43,22 @@
                         </div>
                         <div class="row gx-5 justify-content-center">
                             <div class="col-lg-8 col-xl-6">
-                                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                                <form class="needs-validation" id="contactForm" data-sb-form-api-token="API_TOKEN" novalidate>
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                        <label for="name">Nombre Completo</label>
-                                        <div class="invalid-feedback" data-sb-feedback="name:required">Un nombre es requerido.</div>
-                                        <small>mensaje de error</small>
+                                        <input class="form-control" id="validationCustom01" type="text" placeholder="Enter your name..." data-sb-validations="required" required/>
+                                        <label for="validationCustom01">Nombre Completo</label>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                        <label for="email">Email </label>
-                                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                        <div class="invalid-feedback" data-sb-feedback="email:email">Correo electronico no valido.</div>
-                                        <small>mensaje de error</small>
+                                        <input class="form-control" id="validationCustom02" type="email" placeholder="name@example.com" data-sb-validations="required,email" required/>
+                                        <label for="validationCustom02">Email </label>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                        <label for="phone">Número Telefónico</label>
-                                        <div class="invalid-feedback" data-sb-feedback="phone:required">Un numero telefonico es requerido.</div>
-                                        <small>mensaje de error</small>
+                                        <input class="form-control" id="validationCustom03" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" required/>
+                                        <label for="validationCustom03">Número Telefónico</label>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                        <label for="message">Mensaje</label>
-                                        <div class="invalid-feedback" data-sb-feedback="message:required">Un mensaje es requerido.</div>
-                                        <small>mensaje de error</small>
+                                        <textarea class="form-control" id="validationCustom04" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required" required></textarea>
+                                        <label for="validationCustom04">Mensaje</label>
                                     </div>
                                     <div class="d-none" id="submitSuccessMessage">
                                         <div class="text-center mb-3">
@@ -98,7 +89,7 @@
             </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="js/scripts.js"></script>
+        <script src="../js/script.js"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
