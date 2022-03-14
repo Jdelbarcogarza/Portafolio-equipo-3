@@ -492,6 +492,12 @@ progress {
   font-weight: 300;
 }
 
+.lead2 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-shadow: 0 0 10px black;
+}
+
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
@@ -11325,4 +11331,11 @@ html {
 
 .form-floating.mb-3.incorrect input {
   border-color: red;
+}
+
+.carousel-indicators {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: 800px 80px;
+  background-position: center 46%;
+  background-repeat: no-repeat;
 }
