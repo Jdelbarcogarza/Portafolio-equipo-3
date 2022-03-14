@@ -110,6 +110,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+  font-family: 'Times New Roman', Times, serif;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -4511,12 +4512,15 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-width: 0;
+  width: 100%;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border: 5px solid rgba(0, 0, 0, 0.125);
+  border-radius: 2.25rem;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 20px;
 }
 .card > hr {
   margin-right: 0;
