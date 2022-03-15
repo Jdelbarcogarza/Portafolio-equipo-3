@@ -11335,7 +11335,7 @@ html {
 
 .carousel-indicators {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-size: 800px 80px;
-  background-position: center 46%;
+  background-size: 800px 140px;
+  background-position: center top;
   background-repeat: no-repeat;
 }
