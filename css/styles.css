@@ -11332,3 +11332,10 @@ html {
 .form-floating.mb-3.incorrect input {
   border-color: red;
 }
+
+.carousel-indicators {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: 800px 140px;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
