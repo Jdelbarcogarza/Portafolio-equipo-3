@@ -4517,9 +4517,9 @@ textarea.form-control-lg {
   background-color: #fff;
   background-clip: border-box;
   border: 5px solid rgba(0, 0, 0, 0.125);
-  border-radius: 2.25rem;
-  margin: 0 auto; /* Added */
-  float: none; /* Added */
+  /*border-radius: 2.25rem;*/
+  margin: 0 auto; 
+  float: none; 
   margin-bottom: 20px;
 }
 .card > hr {
@@ -4612,7 +4612,7 @@ textarea.form-control-lg {
 .card-img-top,
 .card-img-bottom {
   width: 100%;
-  height: 30vw;
+  height: 25vw;
   object-fit: cover;
 }
 
